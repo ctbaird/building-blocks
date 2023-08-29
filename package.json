@@ -1,0 +1,15 @@
+{
+  "name": "steel-tooth",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "data structures & algorithms with tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "ctbaird",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
