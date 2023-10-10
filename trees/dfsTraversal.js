@@ -1,8 +1,10 @@
+import { buildBinaryTree } from "./buildBinaryTree.js";
+
 const visit = (node) => {
     console.log(node.value);
 };
 
-const inorderTraversal = (node) => {
+const inorder = (node) => {
     if (node == null) {
         return;
     }
@@ -29,3 +31,9 @@ const postorder = (node) => {
     postorder(node.right);
     visit(node);
 };
+
+const tree = buildBinaryTree([1, 2, 3, 4, 5], 0);
+console.log('inorder', inorderTraversal(tree));
+console.log('preorder', preorder(tree));
+console.log('postorder', postorder(tree));
+
