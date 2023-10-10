@@ -33,7 +33,7 @@ const postorder = (node) => {
 };
 
 const tree = buildBinaryTree([1, 2, 3, 4, 5], 0);
-console.log('inorder', inorderTraversal(tree));
+console.log('inorder', inorder(tree));
 console.log('preorder', preorder(tree));
 console.log('postorder', postorder(tree));
 
